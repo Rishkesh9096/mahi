@@ -10,9 +10,11 @@
 <body>
     <div class="width-full h-full">
         @include('layout.header')
-        <main class="w-full h-200">
-            @yield('appcontents')
-        </main>
+
+    <main class="w-full h-200">
+        @yield('appContents')
+    </main>
+
         @include('layout.footer')
     </div>
 </body>
